@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SimulateurInvictus/static/css/main.e2b8fd52.chunk.css",
+    "main.js": "/SimulateurInvictus/static/js/main.0f11a21c.chunk.js",
+    "main.js.map": "/SimulateurInvictus/static/js/main.0f11a21c.chunk.js.map",
+    "runtime~main.js": "/SimulateurInvictus/static/js/runtime~main.b6e8a340.js",
+    "runtime~main.js.map": "/SimulateurInvictus/static/js/runtime~main.b6e8a340.js.map",
+    "static/js/2.eb52ef2d.chunk.js": "/SimulateurInvictus/static/js/2.eb52ef2d.chunk.js",
+    "static/js/2.eb52ef2d.chunk.js.map": "/SimulateurInvictus/static/js/2.eb52ef2d.chunk.js.map",
+    "index.html": "/SimulateurInvictus/index.html",
+    "precache-manifest.a168a43cf955757137bf04b2b8a708d6.js": "/SimulateurInvictus/precache-manifest.a168a43cf955757137bf04b2b8a708d6.js",
+    "service-worker.js": "/SimulateurInvictus/service-worker.js",
+    "static/css/main.e2b8fd52.chunk.css.map": "/SimulateurInvictus/static/css/main.e2b8fd52.chunk.css.map",
+    "static/media/aerial-view-of-buildings-510856.jpg": "/SimulateurInvictus/static/media/aerial-view-of-buildings-510856.7b620e98.jpg",
+    "static/media/font-awesome.min.css": "/SimulateurInvictus/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/girl-486950_1280.jpg": "/SimulateurInvictus/static/media/girl-486950_1280.da37ebd0.jpg",
+    "static/media/invictus-logo.png": "/SimulateurInvictus/static/media/invictus-logo.382efe7f.png",
+    "static/media/nucleo.css": "/SimulateurInvictus/static/media/nucleo-icons.f82ec6ba.ttf",
+    "static/media/orphan-1139042_640.jpg": "/SimulateurInvictus/static/media/orphan-1139042_640.bd295167.jpg",
+    "static/media/people-around-louvre-museum-2130610.jpg": "/SimulateurInvictus/static/media/people-around-louvre-museum-2130610.c7c551b7.jpg"
+  }
+}
