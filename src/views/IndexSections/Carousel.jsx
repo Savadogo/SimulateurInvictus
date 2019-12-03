@@ -1,34 +1,30 @@
-/*!
-
-=========================================================
-* Argon Design System React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
+import { Link } from "react-router-dom";
 
 // reactstrap components
 import { Button, Container, Row, Col, UncontrolledCarousel } from "reactstrap";
 
 const items = [
   {
-    src: require("assets/img/theme/img-1-1200x1000.jpg"),
+    src: require("assets/img/theme/orphan-1139042_640.jpg"),
     altText: "",
     caption: "",
     header: ""
   },
   {
-    src: require("assets/img/theme/img-2-1200x1000.jpg"),
+    src: require("assets/img/theme/aerial-view-of-buildings-510856.jpg"),
+    altText: "",
+    caption: "",
+    header: ""
+  },
+  {
+    src: require("assets/img/theme/girl-486950_1280.jpg"),
+    altText: "",
+    caption: "",
+    header: ""
+  },
+  {
+    src: require("assets/img/theme/people-around-louvre-museum-2130610.jpg"),
     altText: "",
     caption: "",
     header: ""
@@ -52,20 +48,20 @@ class Carousel extends React.Component {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  Bootstrap carousel
+                  Protegez votre enfant!
                 </h1>
                 <p className="lead text-white mt-4">
-                  Argon Design System comes with four pre-built pages to help
-                  you get started faster. You can change the text and images and
-                  you're good to go.
-                </p>
+                L'éducation de votre enfant est importante pour nous, et nous voulons vous donner les meilleurs moyens de leur garantir une formation de qualité. 
+                Avec notre outil intuitif de simulation, vous pouvez en quelques clics évaluer votre besoin en financement et determiner vos cotisations.
                 <Button
-                  className="btn-white mt-4"
-                  color="default"
-                  href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
+                  className="mt-4"
+                  color="success"
+                  to="/simulation"
+                  tag={Link}
                 >
-                  See all components
+                  Simulé le detail de votre cotisation
                 </Button>
+                </p>
               </Col>
               <Col className="mb-lg-auto" lg="6">
                 <div className="rounded shadow-lg overflow-hidden transform-perspective-right">
